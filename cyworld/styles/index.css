@@ -88,19 +88,15 @@
 
 .left__body__footer{
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .todayfeel{
     font-size: 11px;
-    width: 59px;
-    height: 15px;
     color: gray;
 }
 
 .select{
-  width: 140px;
-  height: 18px;
+  width: 100%;
   margin: 8px 0px 0px 0px;
   color: gray;
 }
@@ -108,4 +104,42 @@
 .wrapper__right{
     width: 542px;
     height: 472px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    justify-content: end;
+}
+
+.wrapper__right__header{
+    width: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 14px;
+    align-items: flex-end;
+}
+
+.right__header__title{
+    color: #55B2D4;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.right__header__setting{
+    color: #55B2D4;
+    font-size: 9px;
+}
+
+.wrapper__right__body{
+    width: 510px;
+    height: 445px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
 }
