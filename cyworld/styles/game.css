@@ -45,6 +45,8 @@ html, body{
 .line{
     width: 100%;
     border-top: 1px solid gray;
+    margin: 10px 0px;
+
 }
 
 .wrapper__body{

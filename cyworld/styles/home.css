@@ -51,6 +51,7 @@ body{
 .line{
     width: 100%;
     border-top: 1px solid gray;
+    margin: 10px 0px;
 }
 
 .contents{
@@ -67,6 +68,5 @@ body{
 .wrapper__body__contents{
     height: 240px;
     width: 100%;
-    background-color: gray;
     margin-top: 15px;
 }
