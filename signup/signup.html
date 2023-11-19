@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link href="./styles/signup.css" rel="stylesheet">
+    <script src="./signup.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <h1 class="title">회원가입</h1>
+            <div class="wrapper__submit">
+                <input class="submit" type="text" id="email" placeholder="이메일을 입력해주세요.">
+                <div class="error__email" id="error__email"></div>
+                <input class="submit" type="text" id="name" placeholder="이름을 입력해주세요.">
+                <div class="error__name" id="error__name"></div>
+                <input class="submit" type="password" id="password" placeholder="비밀번호을 입력해주세요.">
+                <div class="error__pw" id="error__pw"></div>
+                <input class="submit" type="password" id="password2" placeholder="비밀번호를 다시 입력해주세요.">
+                <div class="error__pw2"  id="error__pw2"></div>
+            </div>
+            <div class="phone">
+                <input class="phonenum" type="text" id="phone1" oninput="changeFocus()" maxlength="3">—
+                <input class="phonenum" type="text" id="phone2" oninput="changeFocus()" maxlength="4">—
+                <input class="phonenum" type="text" id="phone3" oninput="changeFocus2()" maxlength="4">
+            </div>
+            <div class="phonesend">
+                <div class="number" id="sendnum">000000</div>
+                <button class="sendbtn" id="sendnumbtn" disabled onclick="sendNum()">인증번호 전송</button>
+            </div>
+            <div class="checknum">
+                <div class="timer" id="timer">00:00</div>
+                <button class="checkbtn" id="checkbtn" disabled onclick="checkNum()">인증 완료</button>
+            </div>
+            <div class="wrapper__location">
+                <select class="location" id="location">
+                    <option disabled="true" selected="true">지역을 선택하세요.</option>
+                    <option>서울</option>
+                    <option>경기</option>
+                    <option>인천</option>
+                    <option>광주</option>
+                    <option>부산</option>
+                </select>
+                <div class="error__location" id="error__location"></div>
+            </div>
+                <div class="wrapper__gender">
+                <div class="gender">
+                    <input class="female" name="gender"  id="female" type="radio">여성
+                    <input class="male" name="gender" id="male" type="radio">남성
+                </div>
+                <div class="error__gender" id="error__gender"></div>
+            </div>
+            <div class="line"></div>
+            <button class="registbtn" id="registbtn"  onclick="regist()">가입하기</button>
+        </select>
+    </div>
+</body>
+</html>

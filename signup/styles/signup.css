@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    width: 540px;
+    height: 960px;
+    margin: 60px 0px 0px 62px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #AACDFF;
+    border-radius: 20px;
+}
+
+.outerbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-left: 78px;
+    margin-right: 82px;
+}
+
+.title{
+    color: #0068FF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.wrapper__submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.phonenum{
+    height: 40px;
+    width: 100px;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.phonesend{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.number{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0068FF;
+}
+
+.sendbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    color: black;
+    border: 1px solid #D2D2D2;
+    background-color: gray;
+    margin-left: 21px;
+}
+
+
+.checknum{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.timer{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0068FF;
+}
+
+.error__email {
+    font-size: 12px;
+    color: red;
+
+}
+
+.error__name {
+    font-size: 12px;
+    color: red;
+
+}
+
+.error__pw {
+    font-size: 12px;
+    color: red;
+
+}
+
+.error__pw2 {
+    font-size: 12px;
+    color: red;
+
+}
+
+
+.checkbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    color: black;
+    border: 1px solid #D2D2D2;
+    background-color: gray;
+    margin-left: 21px;
+}
+
+.wrapper__location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location{
+    width: 380px;
+    height: 60px;
+    margin-top: 20px;
+    color: #797979;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.error__location {
+    font-size: 12px;
+    color: red;
+
+}
+
+.wrapper__gender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gender{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.female{
+    width: 20px;
+    height: 20px;
+}
+
+.male{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.error__gender {
+    font-size: 12px;
+    color: red;
+
+}
+
+.line{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.registbtn{
+    margin-top: 20px;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    color: #0068FF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    font-size: 18px;
+    align-items: center;
+}
